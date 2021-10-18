@@ -19,21 +19,21 @@ You will also see any lint errors in the console.
 - [x] Create react app.
 - [x] Router dom install.
 - [x] Create Repository.
-## ##
+
 ## :bulb: Step-2 :
-### Add Navbar
+### Added Navbar
 - [x] React bootstrap install.
 - [x] Linked the nav link with components.
 - [x] React Hash-tag npm install.
-## ##
+
 ## :bulb: Step-3 :
-### Add Banner
+### Added Banner
 - [x] Added Carousel
 - [x] Added Banner images
 - [x] Added banner title & sub title
-## ##
+
 ## :bulb: Step-4 :
-### Add Classes
+### Added Classes
 - [x]
 - [x]
 - [x]
