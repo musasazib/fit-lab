@@ -34,6 +34,8 @@ const Package = () => {
                                 <p>-  Dedicated Trainer Alocated</p>
                                 <p>-  Morning & Evening Batches</p>
                                 <button className="btn btn-warning">Larne More</button>
+
+                                <button className="btn btn-warning ms-5">Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -56,13 +58,15 @@ const Package = () => {
                                 <p>-  Dedicated Trainer Alocated</p>
                                 <p>-  Morning & Evening Batches</p>
                                 <button className="btn btn-warning">Larne More</button>
+                                
+                                <button className="btn btn-warning ms-5">Book Now</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div>
-                
+
             </div>
             <Footer></Footer>
         </div>
