@@ -7,7 +7,7 @@ const Booking = () => {
     const { classId } = useParams();
     const [details, setDetails] = useState([]);
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/musasazib/fake-dada/main/src/components/FitLab/fakedata.json')
+        fetch('https://raw.githubusercontent.com/musasazib/fake-dada/main/src/components/FitLab/classesFakedata.json')
             .then(res => res.json())
             .then(data => {
                 const gym = data.find(td => td.id === classId);
