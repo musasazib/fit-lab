@@ -73,12 +73,42 @@ You will also see any lint errors in the console.
 - [x] Using react Bootstrap cart
 - [x] Make it responsive
 
-## :bulb: Step-9 :
+## :bulb: Step-10 :
 ### Added Footer components
-- [x]
-- [x]
-- [x]
-- [x]
+- [x] Added logo  
+- [x] Add Other Section
+
+## :bulb: Step-11 :
+### Create firebase project
+- [x] Create project name 
+- [x] firebase npm install
+- [x] Email-password & google Authentication Enable
+
+## :bulb: Step-12 :
+### Added Firebase components
+- [x] Create config
+- [x] Create Initialization
+
+## :bulb: Step-13 :
+### Added useFirebase components
+- [x] Email & Google Sign in setup
+- [x] Error massage handle
+- [x] is loading setup
+- [x] LogOut
+
+## :bulb: Step-14 :
+### Added Auth Provider components
+- [x] createContext
+- [x] Return AuthContext Provider
+- [x] Value set
+
+## :bulb: Step-15 :
+### Added useAuth components
+- [x] useContext
+- [x] AuthContext
+
+## :bulb: Step-16 :
+### Added useAuth components
 - [x]
 - [x]
 - [x]
