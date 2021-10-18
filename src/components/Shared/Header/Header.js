@@ -8,7 +8,7 @@ const Header = () => {
         <>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home"><img
+                    <Navbar.Brand as={Link} to="/home#home"><img
                         src={logo}
                         height="35 "
                         className="d-inline-block align-top"
