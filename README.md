@@ -65,8 +65,16 @@ You will also see any lint errors in the console.
 - [x] Using react Bootstrap cart
 - [x] Make it responsive
 
-## :bulb: Step-8 :
+## :bulb: Step-9 :
 ### Added Product components
+- [x] Create data
+- [x] Create useState 
+- [x] Data load of Classes with useEffect
+- [x] Using react Bootstrap cart
+- [x] Make it responsive
+
+## :bulb: Step-9 :
+### Added Footer components
 - [x]
 - [x]
 - [x]
