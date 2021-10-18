@@ -18,8 +18,8 @@ const About = () => {
                         <img src={img} alt="" className="img-fluid rounded" />
                     </div>
                     <div className="col-12 col-md-6 ">
-                        <h1>WHO WE ARE</h1>
-                        <p>Who are you?’ Instinctively you‘d probably answer that question stating your name, age background, hobbies and job. Explaining who you truly are, is no topic for small talks. And there’s no shame in that. Your true identity is an inherently complex phenomenon. You are you — but how exactly is ‘you’.
+                        <h1 className="ps-2">WHO WE ARE</h1>
+                        <p className="ps-2">Who are you?’ Instinctively you‘d probably answer that question stating your name, age background, hobbies and job. Explaining who you truly are, is no topic for small talks. And there’s no shame in that. Your true identity is an inherently complex phenomenon. You are you — but how exactly is ‘you’.
                             <br />
                             <br />
                             - Unlike a drop of water which loses its identity.
