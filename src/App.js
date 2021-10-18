@@ -6,6 +6,7 @@ import Home from './components/Home/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Package from './components/Package/Package';
 import Header from './components/Shared/Header/Header';
+import Booking from './components/Booking/Booking';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/booking/:classId">
+            <Booking></Booking>
           </Route>
           <Route path="/package">
             <Package></Package>

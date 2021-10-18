@@ -21,23 +21,27 @@ You will also see any lint errors in the console.
 - [x] Create Repository.
 
 ## :bulb: Step-2 :
-### Added Navbar
+### Added Navbar components
 - [x] React bootstrap install.
 - [x] Linked the nav link with components.
 - [x] React Hash-tag npm install.
 
 ## :bulb: Step-3 :
-### Added Banner
+### Added Banner components
 - [x] Added Carousel
 - [x] Added Banner images
 - [x] Added banner title & sub title
 
 ## :bulb: Step-4 :
-### Added Classes
-- [x]
-- [x]
-- [x]
-- [x]
+### Added Classes components
+- [x] Create CSS file
+- [x] Create useState 
+- [x] Data load of Classes with useEffect
+- [x] using bootstrap card
+- [x] Make it responsive
+
+## :bulb: Step-4 :
+### Added Classify components
 - [x]
 - [x]
 - [x]
