@@ -47,11 +47,18 @@ You will also see any lint errors in the console.
 
 ## :bulb: Step-6 :
 ### Added Classify components
-- [x]
-- [x]
-- [x]
-- [x]
-- [x]
+- [X] Create CSS file
+- [x] Destructuring
+- [x] Return Properties
+
+## :bulb: Step-7 :
+### Added Booking components
+- [x] Classes details inside Booking components
+- [x] Show class Details
+- [x] Make a button to back home
+
+## :bulb: Step-8 :
+### Added Trainer components
 - [x]
 - [x]
 - [x]

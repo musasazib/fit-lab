@@ -5,7 +5,7 @@ import './Classes.css';
 const Classes = () => {
     const [classes, setClasses] = useState([]);
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/musasazib/fake-dada/main/src/components/FitLab/fakedata.json')
+        fetch('https://raw.githubusercontent.com/musasazib/fake-dada/main/src/components/FitLab/classesFakedata.json')
             .then(res => res.json())
             .then(data => setClasses(data));
     }, [])
