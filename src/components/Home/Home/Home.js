@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Classes from '../Classes/Classes';
-import Trainer from '../Trainer/Trainer';
+import Trainers from '../Trainers/Trainers';
 
 const Home = () => {
     return (
@@ -9,7 +9,7 @@ const Home = () => {
             <h2>This is Home</h2>
             <Banner></Banner>
             <Classes></Classes>
-            <Trainer></Trainer>
+            <Trainers></Trainers>
         </div>
     );
 };

@@ -59,6 +59,19 @@ You will also see any lint errors in the console.
 
 ## :bulb: Step-8 :
 ### Added Trainer components
+- [x] Create data
+- [x] Create useState 
+- [x] Data load of Classes with useEffect
+- [x] Using react Bootstrap cart
+- [x] Make it responsive
+
+## :bulb: Step-8 :
+### Added Product components
+- [x]
+- [x]
+- [x]
+- [x]
+- [x]
 - [x]
 - [x]
 - [x]
