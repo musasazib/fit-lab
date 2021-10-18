@@ -33,6 +33,11 @@ You will also see any lint errors in the console.
 - [x] Added banner title & sub title
 
 ## :bulb: Step-4 :
+### Create Fake Data
+- [x] Choose- Image, Name Others 
+- [x] Create Repo then Upload
+
+## :bulb: Step-5 :
 ### Added Classes components
 - [x] Create CSS file
 - [x] Create useState 
@@ -40,7 +45,7 @@ You will also see any lint errors in the console.
 - [x] using bootstrap card
 - [x] Make it responsive
 
-## :bulb: Step-4 :
+## :bulb: Step-6 :
 ### Added Classify components
 - [x]
 - [x]
