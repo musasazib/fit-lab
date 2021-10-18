@@ -10,7 +10,7 @@ const Classes = () => {
             .then(data => setClasses(data));
     }, [])
     return (
-        <div>
+        <div id="classes">
             <h1 className="text-primary mt-5">OUR POPULAR CLASSES</h1>
             <h4>Lorem ipsum dolor sit amen, quo no quid's facile fatidic at pri delegati comprehension. Cum dicot nunquam in.
                 Mel et impetus fibulas consequently.</h4>
