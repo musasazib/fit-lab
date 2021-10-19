@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
+import Banner from '../Home/Banner/Banner';
+import Footer from '../Shared/Footer/Footer';
 
 const Booking = () => {
 
@@ -18,16 +20,19 @@ const Booking = () => {
 
     return (
         <div>
-
-            <img src={img} alt="" />
-            <h2>Name: {name}</h2>
-            <h1>Price: {price}</h1>
-            <h3>Title: {title}</h3>
-            <h5>{subTitle}</h5>
-            <p>{description}</p>
-            <Link to="/home#classes">
-                <button className="btn btn-warning">Back to Home</button>
-            </Link>
+            <Banner></Banner>
+            <div className="text-center m-5 p-5">
+                <h1 className="mb-5">Details: {name}</h1>
+                <img src={img} alt="" />
+                <h1>Price: {price}</h1>
+                <h3>Title: {title}</h3>
+                <h5>{subTitle}</h5>
+                <p>{description}</p>
+                <Link to="/home#classes">
+                    <button className="btn btn-warning">Add to Cart</button>
+                </Link>
+            </div>
+            <Footer></Footer>
         </div>
     );
 };

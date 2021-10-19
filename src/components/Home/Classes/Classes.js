@@ -11,9 +11,11 @@ const Classes = () => {
     }, [])
     return (
         <div id="classes">
-            <h1 className="text-primary mt-5">OUR POPULAR CLASSES</h1>
-            <h4>Lorem ipsum dolor sit amen, quo no quid's facile fatidic at pri delegati comprehension. Cum dicot nunquam in.
-                Mel et impetus fibulas consequently.</h4>
+            <div className="text-center m-5 pt-5">
+                <h1 className="text-primary mt-5">OUR POPULAR CLASSES</h1>
+                <h4>Lorem ipsum dolor sit amen, quo no quid's facile fatidic at pri delegati comprehension. Cum dicot nunquam in.
+                    Mel et impetus fibulas consequently.</h4>
+            </div>
             <div className="classify-container">
                 {
                     classes.map(classify => <Classify
