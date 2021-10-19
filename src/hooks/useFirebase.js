@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, onAuthStateChanged, signOut, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase/auth";
 import { useEffect, useState } from "react";
 import FirebaseInit from "../components/Firebase/firebase.init";
 
@@ -12,7 +12,10 @@ const useFirebase = () => {
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);
 
-    console.log(user);
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const [error, setError]= useState('');
 
     const googleSignIn = () => {
         setIsLoading(true)
@@ -39,6 +42,37 @@ const useFirebase = () => {
         return () => unsubscribed;
     }, [])
 
+    const handleRegister = (e) => {
+        e.preventDefault();
+
+        if (password.length < 6) {
+            setError('Password should be at least 6 characters')
+            return;
+        }
+        createUserWithEmailAndPassword(auth, email, password)
+        .then(result => {
+            const user = result.user;
+            console.log(user)
+            setError('');
+        })
+        .catch(error => {
+            setError(error.message);
+          });
+    }
+    
+    const handleLogin = e => {
+        e.preventDefault();
+        signInWithEmailAndPassword(auth, email, password)
+        .then(result => {
+            const user = result.user;
+            console.log('abcd', user)
+            setError('');
+        })
+        .catch(error => {
+            setError(error.message);
+          });
+    }
+
     const logOut = () => {
         setIsLoading(true)
         signOut(auth).then(() => { })
@@ -48,8 +82,12 @@ const useFirebase = () => {
         user,
         googleSignIn,
         isLoading,
-        logOut
-
+        logOut,
+        setPassword,
+        setEmail,
+        handleRegister,
+        error,
+        handleLogin
     }
 
 };
