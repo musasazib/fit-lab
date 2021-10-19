@@ -3,6 +3,11 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
 }
+.title{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
 
 /* Make it responsive */
 @media only screen and (max-width:688px) {

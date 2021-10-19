@@ -1,0 +1,12 @@
+.service-tain{
+    color: white;
+    text-align: center;
+}
+.taine-name{
+    background-color: gray;
+    border-radius: 10px;
+}
+.taine-name:hover{
+    background-color: indigo;
+    color: khaki;
+}

@@ -10,8 +10,8 @@ const Trainers = () => {
             .then(data => setTrainers(data));
     }, [])
     return (
-        <div>
-            <h1 className="text-primary mt-5">OUR TRAINER</h1>
+        <div className="bg-dark">
+            <h1 className="title mt-5">OUR TRAINER</h1>
             <div className="trainer-container">
                 {
                     trainers.map(trainer => <Trainer
