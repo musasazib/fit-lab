@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import Footer from '../../Shared/Footer/Footer';
+import image from '../../../images/registration-form-template.jpg';
 
 const Register = () => {
 
@@ -17,9 +19,10 @@ const Register = () => {
 
 
     return (
-        <div className=" container">
+        <div className="regis">
+            <h1 className="text-center pt-5">Please Register</h1>
             <div className="row align-items-center" style={{ height: "100vh" }}>
-                <div className="col-md-6 shadow p-5">
+                <div className="col-md-6 col-12 shadow p-5 container">
                     <form onSubmit={handleRegister}>
                         <div className="form-group">
                             <label htmlFor="">User Name</label>
@@ -48,10 +51,11 @@ const Register = () => {
                         <button onClick={googleSignIn} className="btn btn-primary" >Google Sign in</button>
                     </div>
                 </div>
-                <div className="col-md-6 d-none d-md-block">
-                    {/* <img className="img-fluid" src={BannerImage} alt="" /> */}
+                <div className="col-md-6 col-12 d-none d-md-block">
+                    <img className="img-fluid" src={image} alt="" />
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };

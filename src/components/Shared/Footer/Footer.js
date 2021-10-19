@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../../../images/logo.png';
+import image from '../../../images/Screenshot_10.png';
 
 const Footer = () => {
     return (
@@ -13,26 +14,27 @@ const Footer = () => {
                             <hr />
                         </div>
                         <div className="col-12 col-md-3">
-                            <h4>QUICK LINKS</h4>
-                            <p>Classes</p>
-                            <p>Faq</p>
-                            <p>Our Trainer</p>
-                            <p>Daily workout</p>
-                            <p>Products</p>
-                            <p>Contact Us</p>
+                            <h4 className="footer-text">QUICK LINKS</h4>
+                            <p className="footer-text">- Classes</p>
+                            <p className="footer-text">- Faq</p>
+                            <p className="footer-text">- Our Trainer</p>
+                            <p className="footer-text">- Daily workout</p>
+                            <p className="footer-text">- Products</p>
+                            <p className="footer-text">- Contact Us</p>
                         </div>
                         <div className="col-12 col-md-3">
-                            <p>About online food</p>
-                            <p>Read our blog</p>
-                            <p>Sign up to deliver</p>
-                            <p>Add your restaurant</p>
+                            <p className="footer-text">About online food</p>
+                            <p className="footer-text">Read our blog</p>
+                            <p className="footer-text">Sign up to deliver</p>
+                            <p className="footer-text">Add your restaurant</p>
+                            <p className="footer-text">View all cities</p>
+                            <p className="footer-text">Restaurants near me</p>
                             <hr />
                         </div>
                         <div className="col-12 col-md-3">
-                            <p>Get help</p>
-                            <p>Read FAQs</p>
-                            <p>View all cities</p>
-                            <p>Restaurants near me</p>
+                            <p className="footer-text">Get help</p>
+                            <p className="footer-text">Read FAQs</p>
+                            <img src={image} alt="" />
                             <hr />
                         </div>
                     </div>

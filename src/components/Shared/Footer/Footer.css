@@ -4,6 +4,8 @@
     margin: 20px;
 }
 .footer-text{
-    padding: 20px;
-    margin: 20px;
+    cursor: wait;
+}
+.footer-text:hover{
+    color: tomato;
 }
