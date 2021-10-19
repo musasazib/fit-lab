@@ -1,5 +1,6 @@
 .service-product{
     text-align: center;
+    padding-top: 20px;
 }
 .name{
     color: gray;
@@ -12,7 +13,9 @@
     background-color: yellow;
 }
 .service-product:hover{
-    background-color: rgb(240, 233, 233);
-    border-radius: 20px;
-    padding-top: 20px;
+    overflow: hidden;
+    transform: scale(1.1);
+    transition: transform 1s;
+    background-color: rgb(240, 236, 232);
+    border-radius: 25px;
 }
