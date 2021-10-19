@@ -4,6 +4,11 @@
     grid-gap: 20px;
 }
 
+.text-name-color{
+    color: rgb(128, 36, 0);
+    font-weight: bold;
+}
+
 /* Make it responsive */
 @media only screen and (max-width:688px) {
     .classify-container{

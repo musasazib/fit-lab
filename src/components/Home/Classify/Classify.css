@@ -1,5 +1,6 @@
 .service-class{
     border: 1px solid gray;
+    text-align: center;
 }
 .service-class:hover{
     color: khaki;
@@ -10,4 +11,9 @@
 }
 .service-class h3:hover{
     color: yellow;
+}
+.service-class:hover{
+    overflow: hidden;
+    transform: scale(1.02);
+    transition: transform 1s;
 }

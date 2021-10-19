@@ -12,7 +12,7 @@ const Classes = () => {
     return (
         <div id="classes">
             <div className="text-center m-5 pt-5">
-                <h1 className="text-primary mt-5">OUR POPULAR CLASSES</h1>
+                <h1 className="text-name-color mt-5">OUR POPULAR CLASSES</h1>
                 <h4>Lorem ipsum dolor sit amen, quo no quid's facile fatidic at pri delegati comprehension. Cum dicot nunquam in.
                     Mel et impetus fibulas consequently.</h4>
             </div>
