@@ -3,13 +3,16 @@ import useAuth from '../../../hooks/useAuth';
 
 const Register = () => {
 
-    const { googleSignIn, setEmail, setPassword, handleRegister, error } = useAuth();
+    const { googleSignIn, setEmail, setPassword, handleRegister, error, setName } = useAuth();
 
     const handleEmail = e => {
         setEmail(e.target.value);
     }
     const handlePassword = e => {
         setPassword(e.target.value);
+    }
+    const handleName = e => {
+        setName(e.target.value);
     }
 
 
@@ -20,7 +23,7 @@ const Register = () => {
                     <form onSubmit={handleRegister}>
                         <div className="form-group">
                             <label htmlFor="">User Name</label>
-                            <input type="text" className="form-control" required />
+                            <input type="text" onBlur={handleName} className="form-control" required />
                         </div>
                         <div className="form-group">
                             <label htmlFor="email">Email</label>

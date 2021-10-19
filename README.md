@@ -1,18 +1,14 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Fit lab
+This project was [GitHub repository link](https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-musasazib).
+This project was [Live website link](https://fit-lab-dhaka.web.app).
 
 ## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- We offer over 56 classes each week including
+- F.I.T. CLASSES
+- Online F.I.T.ness Workouts
+- Coach’s Corner – F.I.Thess Optimization
+- Our 4,000 square foot facility has everything you need.
+- We have the top of the line equipment, and lots of it!
 
 ## :bulb: Step-1 :
 ### Initial Step
@@ -109,10 +105,11 @@ You will also see any lint errors in the console.
 
 ## :bulb: Step-16 :
 ### Added useAuth components
-- [x]
-- [x]
-- [x]
-- [x]
+- [x] Others ----------
+- [x] Others ----------
+- [x] Others ----------
+- [x] Others ----------
 
 
 ### Deployment
+- [x] Firebase
