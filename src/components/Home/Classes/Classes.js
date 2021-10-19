@@ -13,7 +13,7 @@ const Classes = () => {
         <div id="classes">
             <div className="text-center m-5 pt-5">
                 <h1 className="text-name-color mt-5">OUR POPULAR CLASSES</h1>
-                <h4>Lorem ipsum dolor sit amen, quo no quid's facile fatidic at pri delegati comprehension. Cum dicot nunquam in.
+                <h4>Visudo Search uses functional cookies and non-personalized content. Click 'OK' to allow us and our partners to use your data for the best experience!
                     Mel et impetus fibulas consequently.</h4>
             </div>
             <div className="classify-container">
