@@ -1,3 +1,4 @@
+import './Register.css';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import Footer from '../../Shared/Footer/Footer';
@@ -20,9 +21,9 @@ const Register = () => {
 
     return (
         <div className="regis">
-            <h1 className="text-center pt-5">Please Register</h1>
+            <h1 className="text-center pt-5 register-title">Please Register</h1>
             <div className="row align-items-center" style={{ height: "100vh" }}>
-                <div className="col-md-6 col-12 shadow p-5 container">
+                <div className="col-md-6 col-12 register-style p-5 container">
                     <form onSubmit={handleRegister}>
                         <div className="form-group">
                             <label htmlFor="">User Name</label>
