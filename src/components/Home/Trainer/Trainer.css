@@ -3,12 +3,12 @@
     text-align: center;
 }
 .taine-name{
-    background-color: gray;
+    background-color: brown;
     border-radius: 10px;
 }
 .taine-name:hover{
-    background-color: indigo;
-    color: khaki;
+    background-color: gray;
+    cursor: wait;
 }
 .service-tain:hover{
     overflow: hidden;
