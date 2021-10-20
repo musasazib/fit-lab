@@ -19,7 +19,7 @@ const Login = () => {
         <div>
             <h1 className="text-center pt-5 login-title">Please Login</h1>
             <div className="row align-items-center" style={{ height: "100vh" }}>
-                <div className="col-md-6 col-12 login-style pn-5">
+                <div className="col-md-6 col-12 login-style p-5">
                     <form onSubmit={handleLogin}>
                         <div className="form-group">
                             <label htmlFor="email">Email</label>
