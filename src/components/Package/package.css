@@ -9,7 +9,11 @@
     font-weight: bold;
 }
 .package-btn{
-    background-color: brown;
     font-weight: bold;
+    color: black;
+    border: 1px solid gray;
+}
+.package-btn:hover{
     color: white;
+    background-color: brown;
 }
