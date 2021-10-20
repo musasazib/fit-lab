@@ -22,7 +22,7 @@ const Classify = ({ classify }) => {
                 </div>
                 <p>{subTitle}</p>
                 <Link to={`/booking/${id}`}>
-                    <button className="btn all-btn btn-read">READ MORE</button>
+                    <button className="btn class-btn btn-read">READ MORE</button>
                 </Link>
                 <Link to={`/booking/${id}`}>
                     <button className="btn class-btn btn-book">BOOKING</button>

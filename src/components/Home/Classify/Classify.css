@@ -23,9 +23,13 @@
     transition: transform 1s;
 }
 .class-btn{
-    background-color: brown;
     font-weight: bold;
+    color: black;
+    border: 1px solid gray;
+}
+.class-btn:hover{
     color: white;
+    background-color: brown;
 }
 .btn-book{
     margin-left: 80px;
