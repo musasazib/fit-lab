@@ -4,12 +4,9 @@ import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import logo from '../../../images/logo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserCircle } from '@fortawesome/fontawesome-free-solid';
 
 const Header = () => {
     const { user, logOut } = useAuth();
-    const element = <FontAwesomeIcon icon={faUserCircle} />
     return (
         <>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg" >
@@ -26,12 +23,12 @@ const Header = () => {
                         <Nav.Link as={Link} to="/package">Package</Nav.Link>
                         <Nav.Link as={Link} to="/about">About</Nav.Link>
                         {user.email ?
-                        <Button onClick={logOut} className="logout-btn" as={Link} to="/">Logout</Button>:
-                        <Nav.Link as={Link} to="/login">Login</Nav.Link>}
+                            <Button onClick={logOut} className="logout-btn" as={Link} to="/">Logout</Button> :
+                            <Nav.Link as={Link} to="/login">Login</Nav.Link>}
 
 
                         <Navbar.Text>
-                            <h4 className="user-icon">{element}</h4>  <a className="user-name" href="#login">{user?.displayName}</a>
+                            Signed in as:  <a className="user-name" href="#login">{user?.displayName}</a>
                         </Navbar.Text>
 
                     </Navbar.Collapse>
