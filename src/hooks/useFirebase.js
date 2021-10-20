@@ -25,8 +25,7 @@ const useFirebase = () => {
             .then((result) => {
                 const user = result.user;
                 setUser(user)
-
-            })
+            }) 
             .finally(() => setIsLoading(false));
     }
 

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
     const { googleSignIn, setEmail, setPassword, handleLogin, error } = useAuth();
-
+    
     const handleEmail = e => {
         setEmail(e.target.value);
     }

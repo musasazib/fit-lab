@@ -3,6 +3,8 @@ This project was [GitHub repository link](https://github.com/Programming-Hero-We
 
 This project was [Live website link](https://fit-lab-dhaka.web.app).
 
+From your first-time gym goer, to your most conditioned athlete, FIT Lab is adaptable and welcomes all fitness levels. It contains a wide variety of strength and cardio equipment ranging from free weights, sandbags, kettle bells, medicine balls, Concept 2 rowers, TRX suspension trainers, BOSU balls, resistance bands and much more. Every workout will provide options and challenges to mold to your fitness level.
+
 ## Available Scripts
 - We offer over 56 classes each week including
 - F.I.T. CLASSES
