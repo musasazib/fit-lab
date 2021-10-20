@@ -22,14 +22,14 @@ const Booking = () => {
         <div>
             <Banner></Banner>
             <div className="text-center m-5 p-5">
-                <h1 className="mb-5"><span className="text-danger">Details:</span> {name}</h1>
+                <h1 className="mb-5"><span className="package-title">Details:</span> {name}</h1>
                 <img src={img} alt="" />
                 <h1>Price: {price}</h1>
-                <h3  className="text-success">Title: {title}</h3>
+                <h3  className="package-title">Title: {title}</h3>
                 <h5>{subTitle}</h5>
                 <p>{description}</p>
                 <Link to="/home#classes">
-                    <button className="btn btn-warning">Add to Cart</button>
+                    <button className="btn all-btn">Add to Cart</button>
                 </Link>
             </div>
             <Footer></Footer>
