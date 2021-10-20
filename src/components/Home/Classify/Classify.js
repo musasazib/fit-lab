@@ -12,7 +12,10 @@ const Classify = ({ classify }) => {
                 <h5>{title}</h5>
                 <p>{subTitle}</p>
                 <Link to={`/booking/${id}`}>
-                    <button className="btn btn-warning">Book {name.toLowerCase()}</button>
+                    <button className="btn all-btn btn-read">READ MORE</button>
+                </Link>
+                <Link to={`/booking/${id}`}>
+                    <button className="btn class-btn btn-book">BOOKING</button>
                 </Link>
             </div>
         </div>

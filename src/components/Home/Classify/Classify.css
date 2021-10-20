@@ -7,13 +7,22 @@
     background-color: gray;
 }
 .service-class h3{
-    color: rgb(128, 36, 0);
-}
-.service-class h3:hover{
-    color: yellow;
+    color: brown;
+    font-weight: bold;
 }
 .service-class:hover{
     overflow: hidden;
     transform: scale(1.02);
     transition: transform 1s;
+}
+.class-btn{
+    background-color: brown;
+    font-weight: bold;
+    color: white;
+}
+.btn-book{
+    margin-left: 20px;
+}
+.btn-read{
+    margin-right: 20px;
 }
