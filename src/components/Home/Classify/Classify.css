@@ -1,14 +1,21 @@
 .service-class{
     border: 1px solid gray;
+    border-radius: 20px;
+}
+.service-class-img {
     text-align: center;
+    border-radius: 20px 20px 0 0;
 }
 .service-class:hover{
-    color: khaki;
-    background-color: gray;
+    color: black;
+    background-color: rgb(230, 216, 216);
 }
 .service-class h3{
-    color: brown;
+    color: black;
     font-weight: bold;
+}
+.service-class h5{
+    color: gray;
 }
 .service-class:hover{
     overflow: hidden;
@@ -21,8 +28,11 @@
     color: white;
 }
 .btn-book{
-    margin-left: 20px;
+    margin-left: 80px;
 }
 .btn-read{
-    margin-right: 20px;
+    margin-left: 40px;
+}
+.plus-icon{
+    color: brown;
 }
