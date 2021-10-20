@@ -1,4 +1,5 @@
 import React from 'react';
+import './About.css';
 import img from '../../images/banner1.jpg'
 import user from '../../images/testimonial-profile.png';
 import Banner from '../Home/Banner/Banner';
@@ -9,7 +10,7 @@ const About = () => {
         <div>
             <Banner></Banner>
             <div className="text-center my-5 py-5">
-                <h1>ABOUT US</h1>
+                <h1 className="about-title">ABOUT US</h1>
                 <p>From the moment you walk through the door you know Gymnast is a unique <br /> place</p>
             </div>
             <div className="container">
