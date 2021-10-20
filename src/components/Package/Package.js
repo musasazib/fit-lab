@@ -10,7 +10,7 @@ const Package = () => {
         <div>
             <Banner></Banner>
             <div className="text-center my-5 py-5">
-                <h1>OUR PACKAGES</h1>
+                <h1 className="package-title">OUR PACKAGES</h1>
                 <h6>They’re back! It’s time to pick your perfect home gym. <br /> Find the package that fits your budget (and space), add it to your cart, and get ready to lift BIG in small spaces. <br /> These packages offer no cost savings, but it gets you everything you need in just one click.</h6>
             </div>
             <div className="container">
@@ -33,9 +33,9 @@ const Package = () => {
                                 <p>-  Diet Plan Included</p>
                                 <p>-  Dedicated Trainer Alocated</p>
                                 <p>-  Morning & Evening Batches</p>
-                                <button className="btn btn-warning">Larne More</button>
+                                <button className="btn package-btn">Larne More</button>
 
-                                <button className="btn btn-warning ms-5">Book Now</button>
+                                <button className="btn package-btn ms-5">Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -57,9 +57,9 @@ const Package = () => {
                                 <p>-  Diet Plan Included</p>
                                 <p>-  Dedicated Trainer Alocated</p>
                                 <p>-  Morning & Evening Batches</p>
-                                <button className="btn btn-warning">Larne More</button>
-                                
-                                <button className="btn btn-warning ms-5">Book Now</button>
+                                <button className="btn package-btn">Larne More</button>
+
+                                <button className="btn package-btn ms-5">Book Now</button>
                             </div>
                         </div>
                     </div>
