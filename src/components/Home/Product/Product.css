@@ -10,7 +10,10 @@
     font-weight: bold;
 }
 .btn-product:hover{
-    background-color: yellow;
+    background-color: brown;
+    font-weight: bold;
+    color: white;
+    cursor: wait;
 }
 .service-product:hover{
     overflow: hidden;
