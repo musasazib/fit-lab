@@ -1,4 +1,5 @@
 import React from 'react';
+import './Login.css';
 import useAuth from '../../../hooks/useAuth';
 import Footer from '../../Shared/Footer/Footer';
 import BannerImage from '../../../images/ebale-nutanix-cvm-ahv-login-banner-1-1.jpg';
@@ -16,9 +17,9 @@ const Login = () => {
 
     return (
         <div>
-            <h1 className="text-center pt-5">Please Login</h1>
+            <h1 className="text-center pt-5 login-title">Please Login</h1>
             <div className="row align-items-center" style={{ height: "100vh" }}>
-                <div className="col-md-6 col-12 shadow p-5">
+                <div className="col-md-6 col-12 login-style p-5">
                     <form onSubmit={handleLogin}>
                         <div className="form-group">
                             <label htmlFor="email">Email</label>
