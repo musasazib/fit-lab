@@ -20,7 +20,7 @@ const Banner = () => {
                             GYM TIME</h1>
                         <h4>Lorem ipsum dolor sit amet, quo no quidam
                             facilis at pri deleniti comprehensam.</h4>
-                        <button className="btn btn-warning">LEARN MORE</button>
+                        <button className="btn all-btn banner-btn">LEARN MORE</button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -34,7 +34,7 @@ const Banner = () => {
                         <h1>DOING HARD WORK</h1>
                         <h4>Lorem ipsum dolor sit amet, probo aliquando percipitur ei vel, et vim simul iuvaret.
                             Mei ad legere eloquentiam. Ad pri habeo adversarium.</h4>
-                        <button className="btn btn-warning">LEARN MORE</button>
+                        <button className="btn all-btn banner-btn">LEARN MORE</button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -47,7 +47,7 @@ const Banner = () => {
                     <Carousel.Caption>
                         <h1>MAKE IT HAPPEN!</h1>
                         <h4>WE ARE READY TO FIT YOU.</h4>
-                        <button className="btn btn-warning banner-btn">LEARN MORE</button>
+                        <button className="btn all-btn banner-btn">LEARN MORE</button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
